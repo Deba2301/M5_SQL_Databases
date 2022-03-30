@@ -2,8 +2,8 @@ package com.ltts.movie.main;
 
 import java.util.*;
 
-import com.ltts.movie.bo.MovieBo;
-import com.ltts.movie.bo.ProductionBo;
+import com.ltts.movie.bo.Moviebo;
+import com.ltts.movie.bo.Productionbo;
 import com.ltts.movie.model.Movie;
 import com.ltts.movie.model.Production;
 
@@ -24,7 +24,7 @@ public class Main {
 			System.out.println("3. Show production Acc to Address");
 			System.out.println("4. Update Table");
 			System.out.println("5. Delete row from Table");
-			ProductionBo pb=new ProductionBo();
+			Productionbo pb=new Productionbo();
 			int z=s.nextInt();
 			switch(z)
 			{	
@@ -104,7 +104,7 @@ public class Main {
 			System.out.println("3. Show production Acc to Language");
 			System.out.println("4. Update Table");
 			System.out.println("5. Delete row from Table");
-			MovieBo pm=new MovieBo();
+			Moviebo pm=new Moviebo();
 			int y=s.nextInt();
 			switch(y)
 			{	

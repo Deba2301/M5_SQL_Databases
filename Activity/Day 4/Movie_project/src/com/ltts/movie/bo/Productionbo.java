@@ -6,7 +6,7 @@ import java.util.*;
 
 import com.ltts.movie.model.Production;
 
-public class ProductionBo {
+public class Productionbo {
 	public boolean insertPlayer(Production p)throws Exception{
 		//DB logic
 		Connection c=DriverManager.getConnection("jdbc:mysql://localhost:3306/project", "root", "root");
